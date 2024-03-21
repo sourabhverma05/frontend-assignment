@@ -10,14 +10,14 @@ const B2CItems = () => {
         <>
             <DropdownMenu>
                 <DropdownMenuTrigger>
-                    <p className={`bg-[#3552AA] text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]`}>B2C</p>
+                    <p className={`sm:relative sm:w-[110px] bg-[#3552AA] text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]`}>B2C</p>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent className={`flex flex-col ms-[435px] -mt-[45px]`}>
+                <DropdownMenuContent className={`sm:absolute flex flex-col sm:ms-[110px] ms-[435px] -mt-[45px]`}>
                     <DropdownMenuSeparator />
                     <Tooltip>
                         <TooltipTrigger>
                             <DropdownMenuItem>
-                                <p className='bg-[#3552AA] text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>Online</p>
+                                <p className='sm:w-[110px] bg-[#3552AA] text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>Online</p>
                             </DropdownMenuItem>
                         </TooltipTrigger>
                         <TooltipContent>
@@ -28,7 +28,7 @@ const B2CItems = () => {
                     <Tooltip>
                         <TooltipTrigger>
                             <DropdownMenuItem>
-                                <p className='bg-[#3552AA] text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>Interview</p>
+                                <p className='sm:w-[110px] bg-[#3552AA] text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>Interview</p>
                             </DropdownMenuItem>
                         </TooltipTrigger>
                         <TooltipContent>
@@ -39,7 +39,7 @@ const B2CItems = () => {
                     <Tooltip>
                         <TooltipTrigger>
                             <DropdownMenuItem>
-                                <p className='bg-[#3552AA] text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>Public Data</p>
+                                <p className='sm:w-[110px] bg-[#3552AA] text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>Public Data</p>
                             </DropdownMenuItem>
                         </TooltipTrigger>
                         <TooltipContent>
@@ -50,7 +50,7 @@ const B2CItems = () => {
                     <Tooltip>
                         <TooltipTrigger>
                             <DropdownMenuItem>
-                                <p className='bg-[#3552AA] text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>Health</p>
+                                <p className='sm:w-[110px] bg-[#3552AA] text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>Health</p>
                             </DropdownMenuItem>
                         </TooltipTrigger>
                         <TooltipContent>

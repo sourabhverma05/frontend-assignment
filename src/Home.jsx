@@ -63,16 +63,17 @@ const HomePage = () => {
                     </div>
                     <div className='flex flex-col sm:flex-row sm:gap-[20px] sm:justify-center gap-y-[20px]'>
                         <div className="sm:flex sm:flex-col sm:gap-3">
-                            <div className='flex items-center relative'>
+                            <div className='flex sm:flex items-center relative'>
                                 <Button onClick={() => handleBtnsDetail("externalBtn")}
                                     className='text-black sm:w-[110px] focus:text-white bg-[#3552aa] hover:bg-[#4768cd] hover:text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>
                                     External
                                 </Button>
-                                {hide === "externalBtn" && <div className={`absolute left-[145px] top-[-14px]`}>
+                                {hide === "externalBtn" && <div className={`absolute sm:top-[35px] sm:left-[50px] left-[145px] top-[-14px]`}>
                                     <div className='flex items-center'>
-                                        <img src={ThreeArrow} className={`w-[150px] h-[65px]`} alt="#" />
+                                        <img src={ThreeArrow} className={`sm:hidden w-[150px] h-[65px]`} alt="#" />
+                                        <img src={Arrow} className='sm:h-[120px]' alt="#" />
                                     </div>
-                                    <div className='flex flex-col gap-y-2 w-[20%] -mt-[80px] ms-[148px]'>
+                                    <div className='flex flex-col gap-y-2 w-[20%] sm:mt-0 sm:ms-[-50px] -mt-[80px] ms-[148px]'>
                                         <B2CItems />
                                         <B2CItems />
                                     </div>
@@ -84,11 +85,12 @@ const HomePage = () => {
                                     className='text-black sm:w-[110px] focus:text-white bg-[#3552aa] hover:bg-[#4768cd] hover:text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>
                                     Internal
                                 </Button>
-                                {hide === "internalBtn" && <div className={`absolute left-[145px] top-[-13px]`}>
+                                {hide === "internalBtn" && <div className={`absolute sm:top-[35px] sm:left-[50px] left-[145px] top-[-13px]`}>
                                     <div className='flex items-center'>
-                                        <img src={ThreeArrow} className={`w-[150px] h-[65px]`} alt="#" />
+                                        <img src={ThreeArrow} className={`sm:hidden w-[150px] h-[65px]`} alt="#" />
+                                        <img src={Arrow} className='sm:h-[120px]' alt="#" />
                                     </div>
-                                    <div className='flex flex-col gap-y-2 w-[20%] -mt-[80px] ms-[148px]'>
+                                    <div className='flex flex-col gap-y-2 w-[20%] sm:mt-0 sm:ms-[-50px] -mt-[80px] ms-[148px]'>
                                         <B2CItems />
                                         <B2CItems />
                                     </div>
@@ -102,11 +104,12 @@ const HomePage = () => {
                                         className='text-black sm:w-[110px] focus:text-white bg-[#82B3E8] hover:bg-[#91c1f6]  hover:text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>
                                         PRD
                                     </Button>
-                                    {hide === "PRDBtn" && <div className={`absolute left-[145px] top-[-12px]`}>
+                                    {hide === "PRDBtn" && <div className={`absolute sm:top-[35px] sm:left-[50px] left-[145px] top-[-12px]`}>
                                         <div className='flex items-center'>
-                                            <img src={ThreeArrow} className={`w-[150px] h-[65px]`} alt="#" />
+                                            <img src={ThreeArrow} className={`sm:hidden w-[150px] h-[65px]`} alt="#" />
+                                            <img src={Arrow} className='sm:h-[120px]' alt="#" />
                                         </div>
-                                        <div className='flex flex-col gap-y-2 w-[20%] -mt-[80px] ms-[148px]'>
+                                        <div className='flex flex-col gap-y-2 w-[20%] sm:mt-0 sm:ms-[-50px] -mt-[80px] ms-[148px]'>
                                             <B2CItems />
                                             <B2CItems />
                                         </div>
@@ -119,11 +122,12 @@ const HomePage = () => {
                                     className='text-black sm:w-[110px] focus:text-white bg-[#82B3E8] hover:bg-[#91c1f6]  hover:text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>
                                     Specs
                                 </Button>
-                                {hide === "specsBtn" && <div className={`absolute left-[145px] top-[-12px]`}>
+                                {hide === "specsBtn" && <div className={`absolute sm:top-[35px] sm:left-[50px] left-[145px] top-[-12px]`}>
                                     <div className='flex items-center'>
-                                        <img src={ThreeArrow} className={`w-[150px] h-[65px]`} alt="#" />
+                                        <img src={ThreeArrow} className={`sm:hidden w-[150px] h-[65px]`} alt="#" />
+                                        <img src={Arrow} className='sm:h-[120px]' alt="#" />
                                     </div>
-                                    <div className='flex flex-col gap-y-2 w-[20%] -mt-[80px] ms-[148px]'>
+                                    <div className='flex flex-col gap-y-2 w-[20%] sm:mt-0 sm:ms-[-50px] -mt-[80px] ms-[148px]'>
                                         <B2CItems />
                                         <B2CItems />
                                     </div>
@@ -136,11 +140,12 @@ const HomePage = () => {
                                     className='text-black sm:w-[110px] focus:text-white bg-[#E96343] hover:bg-[#f3704f] hover:text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>
                                     Hardware
                                 </Button>
-                                {hide === "hardwareBtn" && <div className={`absolute left-[145px] top-[-11px]`}>
+                                {hide === "hardwareBtn" && <div className={`absolute sm:top-[35px] sm:left-[50px] left-[145px] top-[-11px]`}>
                                     <div className='flex items-center'>
-                                        <img src={ThreeArrow} className={`w-[150px] h-[65px]`} alt="#" />
+                                        <img src={ThreeArrow} className={`sm:hidden w-[150px] h-[65px]`} alt="#" />
+                                        <img src={Arrow} className='sm:h-[120px]' alt="#" />
                                     </div>
-                                    <div className='flex flex-col gap-y-2 w-[20%] -mt-[80px] ms-[148px]'>
+                                    <div className='flex flex-col gap-y-2 w-[20%] sm:mt-0 sm:ms-[-50px] -mt-[80px] ms-[148px]'>
                                         <B2CItems />
                                         <B2CItems />
                                     </div>
@@ -152,11 +157,12 @@ const HomePage = () => {
                                     className='text-black sm:w-[110px] focus:text-white bg-[#E96343] hover:bg-[#f3704f] hover:text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>
                                     Software
                                 </Button>
-                                {hide === "softwareBtn" && <div className={`absolute left-[145px] top-[-11px]`}>
+                                {hide === "softwareBtn" && <div className={`absolute sm:top-[35px] sm:left-[50px] left-[145px] top-[-11px]`}>
                                     <div className='flex items-center'>
-                                        <img src={ThreeArrow} className={`w-[150px] h-[65px]`} alt="#" />
+                                        <img src={ThreeArrow} className={`sm:hidden w-[150px] h-[65px]`} alt="#" />
+                                        <img src={Arrow} className='sm:h-[120px]' alt="#" />
                                     </div>
-                                    <div className='flex flex-col gap-y-2 w-[20%] -mt-[80px] ms-[148px]'>
+                                    <div className='flex flex-col gap-y-2 w-[20%] sm:mt-0 sm:ms-[-50px] -mt-[80px] ms-[148px]'>
                                         <B2CItems />
                                         <B2CItems />
                                     </div>
@@ -169,11 +175,12 @@ const HomePage = () => {
                                     className='text-black sm:w-[110px] focus:text-white bg-[#E8919D] hover:bg-[#eb9aa4] hover:text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>
                                     Material
                                 </Button>
-                                {hide === "materialBtn" && <div className={`absolute left-[145px] top-[-11px]`}>
+                                {hide === "materialBtn" && <div className={`absolute sm:top-[35px] sm:left-[50px] left-[145px] top-[-11px]`}>
                                     <div className='flex items-center'>
-                                        <img src={ThreeArrow} className={`w-[150px] h-[65px]`} alt="#" />
+                                        <img src={ThreeArrow} className={`sm:hidden w-[150px] h-[65px]`} alt="#" />
+                                        <img src={Arrow} className='sm:h-[120px]' alt="#" />
                                     </div>
-                                    <div className='flex flex-col gap-y-2 w-[20%] -mt-[80px] ms-[148px]'>
+                                    <div className='flex flex-col gap-y-2 w-[20%] sm:mt-0 sm:ms-[-50px] -mt-[80px] ms-[148px]'>
                                         <B2CItems />
                                         <B2CItems />
                                     </div>
@@ -185,11 +192,12 @@ const HomePage = () => {
                                     className='text-black sm:w-[110px] focus:text-white bg-[#E8919D] hover:bg-[#eb9aa4] hover:text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>
                                     Production
                                 </Button>
-                                {hide === "productionBtn" && <div className={`absolute left-[145px] top-[-11px]`}>
+                                {hide === "productionBtn" && <div className={`absolute sm:top-[35px] sm:left-[50px] left-[145px] top-[-11px]`}>
                                     <div className='flex items-center'>
-                                        <img src={ThreeArrow} className={`w-[150px] h-[65px]`} alt="#" />
+                                        <img src={ThreeArrow} className={`sm:hidden w-[150px] h-[65px]`} alt="#" />
+                                        <img src={Arrow} className='sm:h-[120px]' alt="#" />
                                     </div>
-                                    <div className='flex flex-col gap-y-2 w-[20%] -mt-[80px] ms-[148px]'>
+                                    <div className='flex flex-col gap-y-2 w-[20%] sm:mt-0 sm:ms-[-50px] -mt-[80px] ms-[148px]'>
                                         <B2CItems />
                                         <B2CItems />
                                     </div>
@@ -202,11 +210,12 @@ const HomePage = () => {
                                     className='text-black sm:w-[110px] focus:text-white bg-[#A684EB] hover:bg-[#ae8eed] hover:text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>
                                     Online
                                 </Button>
-                                {hide === "onlineBtn" && <div className={`absolute left-[145px] top-[-11px]`}>
+                                {hide === "onlineBtn" && <div className={`absolute sm:top-[35px] sm:left-[50px] left-[145px] top-[-11px]`}>
                                     <div className='flex items-center'>
-                                        <img src={ThreeArrow} className={`w-[150px] h-[65px]`} alt="#" />
+                                        <img src={ThreeArrow} className={`sm:hidden w-[150px] h-[65px]`} alt="#" />
+                                        <img src={Arrow} className='sm:h-[120px]' alt="#" />
                                     </div>
-                                    <div className='flex flex-col gap-y-2 w-[20%] -mt-[80px] ms-[148px]'>
+                                    <div className='flex flex-col gap-y-2 w-[20%] sm:mt-0 sm:ms-[-50px] -mt-[80px] ms-[148px]'>
                                         <B2CItems />
                                         <B2CItems />
                                     </div>
@@ -218,11 +227,12 @@ const HomePage = () => {
                                     className='text-black sm:w-[110px] focus:text-white bg-[#A684EB] hover:bg-[#ae8eed] hover:text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]'>
                                     Dealearship
                                 </Button>
-                                {hide === "dealearshipBtn" && <div className={`absolute left-[145px] bottom-[-28px]`}>
+                                {hide === "dealearshipBtn" && <div className={`absolute sm:top-[35px] sm:left-[50px] left-[145px] bottom-[-28px]`}>
                                     <div className='flex items-center'>
-                                        <img src={ThreeArrow} className={`w-[150px] h-[65px]`} alt="#" />
+                                        <img src={ThreeArrow} className={`sm:hidden w-[150px] h-[65px]`} alt="#" />
+                                        <img src={Arrow} className='sm:h-[120px]' alt="#" />
                                     </div>
-                                    <div className='flex flex-col gap-y-2 w-[20%] mt-[-80px] ms-[148px]'>
+                                    <div className='flex flex-col gap-y-2 w-[20%] sm:mt-0 sm:ms-[-50px] mt-[-80px] ms-[148px]'>
                                         <B2CItems />
                                         <B2CItems />
                                     </div>
