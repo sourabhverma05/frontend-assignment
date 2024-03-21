@@ -12,7 +12,7 @@ const B2CItems = () => {
                 <DropdownMenuTrigger>
                     <p className={`bg-[#3552AA] text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm w-[150px]`}>B2C</p>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent className={`flex flex-col ms-[340px] -mt-[45px]`}>
+                <DropdownMenuContent className={`flex flex-col ms-[435px] -mt-[45px]`}>
                     <DropdownMenuSeparator />
                     <Tooltip>
                         <TooltipTrigger>
