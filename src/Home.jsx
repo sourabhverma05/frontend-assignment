@@ -19,10 +19,10 @@ const HomePage = () => {
         <div className='w-full'>
             <TooltipProvider>
                 <div className='flex flex-col sm:flex-col'>
-                    <img src={GroupImage} className='m-auto sm:m-auto rotate-90 sm:rotate-90 flex justify-center sm:justify-center items-center sm:items-center w-[10rem] sm:w-[10rem] sm:h-[560px] h-[560px]' alt="#" />
-                    <div className="flex flex-row sm:flex-row mt-[-215px] sm:mt-[-215px] gap-[14px] sm:gap-[14px]">
+                    <img src={GroupImage} className='m-auto sm:m-auto rotate-90 sm:rotate-90 flex justify-center sm:justify-center items-center sm:items-center w-[10rem]  h-[560px] sm:w-[10rem] sm:h-[560px] md:h-[660px] md:w-[11rem]' alt="#" />
+                    <div className="flex flex-row gap-[14px] sm:flex-row mt-[-215px] sm:mt-[-215px] sm:gap-[14px] md:gap-0 md:mt-[-260px]">
 
-                        <div className={`flex sm:flex-col flex-col items-center w-[300px]`}>
+                        <div className={`flex sm:flex-col flex-col items-center w-[300px] md:w-[300px]`}>
                             <p className='sm:w-[110px] w-[110px] text-xs sm:text-xs  bg-[#3552aa] hover:text-white tracking-wide text-center py-3 px-3 font-medium rounded-sm'>Research</p>
                             <div className='flex items-center'>
                                 <img src={ThreeArrow} className='sm:hidden w-[200px] h-[70px]' alt="#" />
@@ -62,7 +62,7 @@ const HomePage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='flex flex-col sm:flex-row sm:gap-[20px] sm:justify-center gap-y-[20px]'>
+                    <div className='flex flex-col gap-y-[20px] sm:flex-row sm:gap-[20px] sm:justify-center md:gap-[45px]'>
                         <div className="sm:flex sm:flex-col sm:gap-3">
                             <div className='flex sm:flex items-center relative'>
                                 <Button onClick={() => handleBtnsDetail("externalBtn")}
