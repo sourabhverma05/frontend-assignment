@@ -16,7 +16,7 @@ const HomePage = () => {
     }
 
     return (
-        <div className='w-screen 2xl:h-full 2xl:w-full 2xl:mx-auto 2xl:my-[5%]'>
+        <div className='w-screen 2xl:h-full 2xl:w-full 2xl:mx-auto 2xl:my-[5%] my-[100px]'>
             <TooltipProvider>
                 <div className='flex flex-col sm:flex-col 2xl:flex-row'>
                     <img
