@@ -12,7 +12,7 @@ const B2CItems = () => {
                     <DropdownMenuTrigger>
                         <p className={`relative sm:relative w-[110px] sm:w-[110px] bg-[#3552AA] text-white tracking-wide py-3 px-3 text-sm font-medium rounded-sm lg:w-[150px] lg:text-lg xl:w-[180px] xl:text-lg 2xl:py-2 2xl:w-40`}>B2C</p>
                     </DropdownMenuTrigger>
-                    <DropdownMenuContent className={`absolute mt-[-10px] sm:absolute flex flex-col sm:ms-[110px] lg:ms-[150px] lg:mt-[-55px] xl:ms-[175px]`}>
+                    <DropdownMenuContent className={`absolute mt-[-10px] ms-[-25px] sm:absolute flex flex-col sm:ms-[110px] lg:ms-[150px] lg:mt-[-55px] xl:ms-[175px]`}>
                         <DropdownMenuSeparator />
                         <Tooltip>
                             <TooltipTrigger>
